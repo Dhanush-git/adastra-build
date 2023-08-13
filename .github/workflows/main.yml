@@ -14,5 +14,5 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v3
       - run: git checkout -b production
-      - run: run README.md && touch temp.txt
+      - run: rm README.md && touch temp.txt
       - run: ls
