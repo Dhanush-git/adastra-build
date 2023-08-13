@@ -20,4 +20,4 @@ jobs:
       - run: rm README.md && touch temp.txt
       - run: ls
       - run: git add . && git commit -m "new build created"
-      - run: git push origin product --force
+      - run: git remote -v
