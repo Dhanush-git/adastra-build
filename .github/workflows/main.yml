@@ -19,4 +19,5 @@ jobs:
       - run: git checkout -b production
       - run: rm README.md && touch temp.txt
       - run: ls
-      - run: git add . && git commit -m "new build created" && git push origin product --force
+      - run: git add . && git commit -m "new build created"
+      - run: git push origin product --force
