@@ -2,9 +2,8 @@
 name: Generate a build and push to another branch
 
 on:
-  commit:
+  push:
     branches:
-      - master # Remove this line if your primary branch is "main"
       - main # Remove this line if your primary branch is "master"
 
 jobs:
