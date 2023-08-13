@@ -19,5 +19,7 @@ jobs:
       - run: git checkout -b production
       - run: rm README.md && touch temp.txt
       - run: ls
-      - run: git add . && git commit -m "new build created"
-      - run: git remote -v
+      - run: git add .
+      - run: git commit -m "new build created"
+      - run: git status
+      - run: git log
